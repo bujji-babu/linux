@@ -1,1 +1,18 @@
-hi
+Frequently asked questions in Linux :
+
+Note :  
+		Write the answers with commanbds only .
+
+			1.  How to Create a folder and create multiple folders inside that folder ??
+			2.  How to Give the permission to a file ,user and group ??
+			3.  How to check the running processes ?? 
+			4.  I need to see the top 5 memory/cpu consuming processes ??
+			5.  How to copy/remove the files/folders from one place to another ??
+			6.  How to copy the files from one server to another server ?? 
+			7.  How to check the port {80/443} listning or not ??
+			8.  How to find a file inside the folder??
+			9.  How to find a word inside the file ??
+			10. Create a file in diffent ways ??
+			11. How to replace a word in a file ?? (ex: replace name "anand" insted of "reddy" in a file)
+			12. How to see the last 20 logs of apache ??
+			13. Tail last 10 logs / head last 10 logs of apache ??
