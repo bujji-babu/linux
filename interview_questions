@@ -16,3 +16,7 @@ Note :
 			11. How to replace a word in a file ?? (ex: replace name "anand" insted of "reddy" in a file)
 			12. How to see the last 20 logs of apache ??
 			13. Tail last 10 logs / head last 10 logs of apache ??
+			14. How to see all listing ports .
+			15. what is the purpouse of the following $!,$?,$1,$2,$0,$#,$@.
+			16. How to check the server version ??
+			17. How to store the ouput 
