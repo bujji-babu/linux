@@ -1,0 +1,64 @@
+Frequently asked questions in Linux :
+
+Note :  
+		Write the answers with commanbds only .
+
+			1.  How to Create a folder and create multiple folders inside that folder ??
+			    mkdir -p anand/shashi/hari
+
+			2.  How to Give the permission to a file ,user and group ??
+			    file:  chmod 755 {filename}
+			    group: chown  {username}:{groupname} {filename}
+
+			3.  How to check the running processes ?? 
+			    ps -ef (or) ps -aux
+
+			4.  I need to see the top 5 memory/cpu consuming processes ??
+			    ps -eo pid,comm,%cpu,%mem --sort=-%cpu | head -n 5
+
+			5.  How to copy/remove the files/folders from one place to another ??
+			    cp -pr {filename/foldername}  {destination}
+
+			6.  How to copy the files from one server to another server ??
+			    scp -i {username}:{sourceservername}/{filesourcepath}  {destination}
+
+			7.  How to check the port {80/443} listning or not ??
+			    netstat -tlpn | grep 80
+			    netstat -tlpn | grep 443
+
+			8.  How to find a file inside the folder??
+			    find / -type d -name "file name"
+
+			9.  How to find a word inside the file ??
+			    grep "word name" filename
+
+			10. Create a file in diffent ways ??
+			    a) touch 2) cat 3)vi
+
+			11. How to replace a word in a file ?? (ex: replace name "anand" insted of "reddy" in a file)
+			    sed 's/anand/reddy/g' filename
+
+			12. How to see the last 20 logs of apache ??
+			    tail -fn 20 /var/log/httpd/access.log
+
+			13. Tail last 10 logs / head last 10 logs of apache ??
+			    last 10 logs :  tail -f /var/log/httpd/access.log
+			    first 10 logs : head -n 10 /var/log/httpd/access.log
+
+			14. How to see all listing ports .
+			    netstat -tlpn
+
+			15. what is the purpouse of the following $!,$?,$1,$2,$0,$#,$@.
+			    $! --- Process number of last background command
+			    $? --- Last command execution status
+			    $1 --- first argument
+			    $2 --- Second argument
+			    $0 --- File name of the current script
+			    $# --- Number of arguments
+			    $@ --- What parameters where passed
+
+			16. How to check the server version ??
+			    cat /etc/os-release
+
+			17. How to store the ouput ??
+			    echo "hello world" | tee > output.txt
